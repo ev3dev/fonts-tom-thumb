@@ -1,0 +1,17 @@
+Source: fonts-tom-thumb
+Section: fonts
+Priority: optional
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 8.0.0), bdf2psf
+Standards-Version: 3.9.5
+Homepage: http://robey.lag.net/2010/01/23/tiny-monospace-font.html
+Vcs-Git: git://github.com/ev3dev/fonts-tom-thumb.git
+Vcs-Browser: https://github.com/ev3dev/fonts-tom-thumb
+
+Package: fonts-tom-thumb
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Conflicts: ev3dev-console (<= 9.0)
+Description: Very tiny, monospace, bitmap font.
+ A more readable 4x6 console font.
